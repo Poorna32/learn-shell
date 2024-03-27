@@ -63,6 +63,7 @@ fi
 X=$1
 if [ -z "$x" ];then
   echo input is missing
+  exit 1
   fi
 if [ $x -gt 100 ];then
   echo "$x is greater than 100"
