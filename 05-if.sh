@@ -11,7 +11,7 @@ else
   commands
 fi
 
-else if [ expression1 ]; then
+else  if [ expression1 ]; then
   commands
   elif[expression2]; then
     commands
@@ -51,7 +51,19 @@ EOF
 
 
 
-X=10
+X=$1
+if [ $x -gt 100 ];then
+  echo "$x is greater than 100"
+  else
+    echo "$x is less than 100 "
+fi
+
+#handle input missing
+
+X=$1
+if [ -z "$x" ];then
+  echo input is missing
+  fi
 if [ $x -gt 100 ];then
   echo "$x is greater than 100"
   else
