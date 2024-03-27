@@ -1,10 +1,10 @@
- simple if
+#simple if
 
 if [ expression ]; then
-commands
+  commands
 fi
 
-if else
+#if else
 if [ expression ]; then
   commands
 else
@@ -52,6 +52,7 @@ EOF
 
 
 X=$1
+
 if [ $x -gt 100 ];then
   echo "$x is greater than 100"
   else
@@ -64,7 +65,8 @@ X=$1
 if [ -z "$x" ];then
   echo input is missing
   exit 1
-  fi
+fi
+
 if [ $x -gt 100 ];then
   echo "$x is greater than 100"
   else
