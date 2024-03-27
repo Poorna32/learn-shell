@@ -15,7 +15,7 @@ else  if [ expression1 ]; then
   commands
   elif[expression2]; then
     commands
-    else
+  else
     commands
 fi
 
