@@ -51,7 +51,7 @@ EOF
 
 
 
-X=$1
+x=$1
 
 if [ $x -gt 100 ];then
   echo "$x is greater than 100"
@@ -61,11 +61,11 @@ fi
 
 #handle input missing
 
-X=$1
-if [ -z "$x" ];then
-  echo input is missing
-  exit 1
+x=$1
+if [ -z "#$x"  ]; then
+  input is missing
 fi
+
 
 if [ $x -gt 100 ];then
   echo "$x is greater than 100"
