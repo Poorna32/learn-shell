@@ -50,22 +50,22 @@
 #[ -e/etc/file ]
 #
 #
+##
+#x=$1
 #
-x=$1
-
-if [ $x -gt 100 ];then
-  echo "$x is greater than 100"
-  else
-    echo "$x is less than 100 "
-fi
+#if [ $x -gt 100 ];then
+#  echo "$x is greater than 100"
+#  else
+#    echo "$x is less than 100 "
+#fi
 #
 ##handle input missing
 #
-#x=$1
-#if [ -z "#$x"  ]; then
-#  input is missing
-#  exit
-#fi
+x=$1
+if [ -z "$x" ]; then
+  input is missing
+  exit
+fi
 #
 #if [ $x -gt 100 ];then
 #  echo "$x is greater than 100"
