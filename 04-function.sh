@@ -3,7 +3,7 @@ example(){
 }
 
 #call function
-example1
+example1()
 
 #functions have its own variables
 
