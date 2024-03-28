@@ -63,7 +63,7 @@
 #
 x=$1
 if [ -z "$x" ]; then
-  input is missing
+  echo "input is missing"
   exit
 fi
 #
