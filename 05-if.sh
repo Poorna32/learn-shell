@@ -71,6 +71,7 @@ else
   echo " $x is less than 100"
 fi
 
+
 ## Variables in expressions better to provide in double quotes when it is string
 
 if [ "$x" == new ]; then
