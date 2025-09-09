@@ -1,9 +1,9 @@
 #variable with plain data
-a=10
+a=1000
 
 
 #variable with special character data(space is also known as special character)
-b="Hello World"
+b="Glenn Maxwell is a Australian legend"
 
 echo $a
 echo $b
