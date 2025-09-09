@@ -1,9 +1,9 @@
 #variable with plain data
-a=1000
+a=32323232
 
 
 #variable with special character data(space is also known as special character)
-b="Glenn Maxwell is a Australian legend"
+b="Welcome to my meme page"
 
 echo $a
 echo $b
