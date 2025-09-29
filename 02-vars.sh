@@ -5,7 +5,7 @@ a=32323232
 #variable with special character data(space is also known as special character)
 b="Welcome to my meme page"
 
-echo $a
-echo $b
+$a
+$b
 
 
