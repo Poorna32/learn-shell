@@ -1,5 +1,5 @@
 example(){
-  echo HEllo Example
+  echo "Welcome to my meme page"
 }
 #call function
 example()
@@ -12,5 +12,5 @@ example1(){
   echo "value of # - $#"
 }
 
-example1 10 20 30
-example1 "$*"
+example1() 10 20 30
+example1() "$*"
