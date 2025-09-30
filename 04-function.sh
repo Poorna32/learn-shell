@@ -2,7 +2,7 @@ example(){
   echo "Welcome to my meme page"
 }
 #call function
-example()
+example
 
 
 #functions have its own variables
@@ -12,5 +12,5 @@ Example1(){
   echo "value of # - $#"
 }
 
-Example1() 10 20 30
-Example1() "$*"
+Example1 10 20 30
+Example1 "$*"
