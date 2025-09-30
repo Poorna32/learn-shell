@@ -7,10 +7,13 @@ example
 
 #functions have its own variables
 Example1(){
+  echo value of 0 - $0
   echo value of 1 - $1
+  echo value of 2 - $2
+  echo value of 3 - $3
   echo "value of * -$*"
   echo "value of # - $#"
 }
 
-Example1 10 20 30
+Example1 10 20 30 40
 Example1 "$*"
