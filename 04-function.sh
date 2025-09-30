@@ -16,3 +16,4 @@ Example1(){
 }
 
 Example1 10 20 30 40
+Example1 "$*"
