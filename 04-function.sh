@@ -4,8 +4,8 @@ example(){
 #call function
 example()
 
-#functions have its own variables
 
+#functions have its own variables
 example1(){
   echo value of 1 - $1
   echo "value of * -$*"
